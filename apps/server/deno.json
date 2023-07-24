@@ -1,0 +1,10 @@
+{
+  "$schema": "https://deno.land/x/deno/cli/schemas/config-file.v1.json",
+  "imports": {
+    "http/": "https://deno.land/std@0.195.0/http/",
+    "log/": "https://deno.land/std@0.195.0/log/"
+  },
+  "extends": "tsconfig/deno.json",
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
